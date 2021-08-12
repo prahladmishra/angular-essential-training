@@ -5,7 +5,7 @@ import { MediaItemComponent } from './media-item.component';
 
 @NgModule({
   imports: [
-    BrowserModule
+    BrowserModule,
   ],
   declarations: [
     AppComponent,
