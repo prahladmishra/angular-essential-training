@@ -1,5 +1,6 @@
 {
   "files.exclude": {
     "**/node_modules": {}
-  }
+  },
+  "editor.fontFamily": "\"Fira Code\", 'Cascadia Code', 'Courier New', monospace"
 }
