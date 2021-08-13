@@ -8,7 +8,23 @@ import { Component, Input } from "@angular/core";
     </span>
   `,
   styles: [
-    ``
+    `
+    :host{
+      display:block;
+      margin-bottom: 20px;
+    }
+    :host-context(.medium-movies) span{
+      background-color: #53ace4;
+    }
+    :host-context(.medium-series) span{
+      background-color: #45bf94;
+    }
+    span{
+      display:inline-block;
+      margin: 0 4px 0 0;
+    }
+
+    `
   ]
 })
 export class CategoryListComponent {
